@@ -283,7 +283,7 @@ proxy-groups:
   - name: LB
     type: load-balance
     strategy: consistent-hashing
-    proxies:
+    use:
       - ACCVLESS
       - ACCTROJAN
       - ACCVMESS
